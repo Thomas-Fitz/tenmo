@@ -1,16 +1,14 @@
 package com.techelevator.dao;
 
 
-import com.techelevator.tenmo.dao.JdbcAccountDao;
-import com.techelevator.tenmo.dao.JdbcUserDao;
-import com.techelevator.tenmo.model.Account;
-import com.techelevator.tenmo.model.User;
+import comtenmo.dao.JdbcAccountDao;
+import comtenmo.dao.JdbcUserDao;
+import comtenmo.model.User;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import javax.sql.DataSource;
 import java.math.BigDecimal;
 
 public class JdbcUserDaoTests extends BaseDaoTests{
